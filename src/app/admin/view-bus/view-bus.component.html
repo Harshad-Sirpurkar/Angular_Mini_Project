@@ -1,0 +1,39 @@
+
+
+<table> 
+        <thead >
+            <tr >
+                <th>Bus ID </th>
+                <th class="me-4">Bus Name</th>
+                <th>Bus Number</th>
+                <th>Driver Name</th>
+                <th>Co.driver Name</th>
+                <th>Sit Capacity</th>
+                <th>From Location</th>
+                <th>To Location</th>
+                <th>Board Time</th>
+                <th>Drop Time</th>
+                <th>Ticket Price</th>
+                <th>Action</th>
+            </tr>
+        </thead>
+        <tbody >
+            <tr *ngFor="let b of busdetails">
+                <td>{{b.id}}</td>
+                <td>{{b.busName}}</td>
+                <td>{{b.busNumber}}</td>
+                <td>{{b.driverName}}</td>
+                <td>{{b.codriverName}}</td>
+                <td>{{b.sittingCapacity}}</td>
+                <td>{{b.fromLocation}}</td>
+                <td>{{b.toLocation}}</td>
+                <td>{{b.boardingTime}}</td>
+                <td>{{b.dropingTime}}</td>
+                <td>{{b.ticketPrice}}</td>
+                <td>
+                    <button class="btn btn-primary" (click)="onDelete(b.id)">Delete</button>
+                </td>
+            </tr>
+        
+        </tbody>
+</table>

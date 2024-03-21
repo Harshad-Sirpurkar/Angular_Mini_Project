@@ -1,0 +1,15 @@
+.bookticket{
+    margin-top: 10px;
+}
+form{
+    margin: auto;
+    margin-top: 30px;
+    border-style: solid;
+    width: 700px;
+    height:250px ;
+}
+button{
+    text-align: center;
+    color: purple;
+    border-color: purple;
+}

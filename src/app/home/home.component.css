@@ -1,0 +1,23 @@
+button{
+        background: size 10px;;
+}
+table{
+        
+        color: purple;
+        border-style: groove;
+        margin-top: 18px;
+        margin-left: 45px;
+        margin-right: 5px;
+        
+}
+tbody tr{
+        text-align: center;
+}
+tbody tr td button{
+        background-color: purple;
+        width: 90px;
+        height: 50px;
+        padding-left: 5px;
+        padding-top: 0%;
+        padding-right: 5px;
+}

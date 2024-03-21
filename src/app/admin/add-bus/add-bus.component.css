@@ -1,0 +1,21 @@
+.passenger-info{
+    
+    margin-top: 20px;
+    border-color:purple;
+}
+form{
+    
+    margin: auto;
+    height: 350px;
+    width: 900px;
+    border-style: solid;
+    border-color:purple; 
+}
+input{
+    border-style:groove;
+}
+button{
+    text-align: center;
+
+    
+}

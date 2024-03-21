@@ -1,0 +1,112 @@
+{
+  "bus": [
+    {
+      "id": "5252",
+      "busNumber": "5252",
+      "busName": "dfd",
+      "driverName": "sf",
+      "codriverName": "fdsf",
+      "sittingCapacity": "30",
+      "fromLocation": "pune",
+      "toLocation": "chandrapur",
+      "boardingTime": "5",
+      "dropingTime": "7",
+      "ticketPrice": "3003",
+      "booking": []
+    },
+    {
+      "id": "5236",
+      "busNumber": "5236",
+      "busName": "ghj",
+      "driverName": "qwe",
+      "codriverName": "rty",
+      "sittingCapacity": "30",
+      "fromLocation": "mumbai",
+      "toLocation": "chandrapur",
+      "boardingTime": "5",
+      "dropingTime": "8",
+      "ticketPrice": "1500",
+      "booking": [
+        {
+          "bookingId": "1",
+          "passengerFullName": "pratik",
+          "passengerAge": "27",
+          "passengerContactNo": "9876543210",
+          "pickUpLocation": "pune",
+          "dropLocation": "mumbail",
+          "sitNumber": "10"
+        },
+        {
+          "bookingId": "2",
+          "passengerFullName": "shubham",
+          "passengerAge": "28",
+          "passengerContactNo": "99999999",
+          "pickUpLocation": "pune",
+          "dropLocation": "lonawla",
+          "sitNumber": "2"
+        },
+        {
+          "bookingId": "100",
+          "passengerFullName": "Kartik",
+          "passengerAge": "23",
+          "passengerContactNo": "789651235",
+          "pickUpLocation": "Pune",
+          "dropLocation": "Chandrapur",
+          "sitNumber": "23"
+        }
+      ]
+    },
+    {
+      "id": "MH34 AB2323",
+      "busNumber": "MH34 AB2323",
+      "busName": "DNR",
+      "driverName": "Rohan",
+      "codriverName": "Kartik",
+      "sittingCapacity": "30",
+      "fromLocation": "Pune",
+      "toLocation": "Nagpur",
+      "boardingTime": "5pm",
+      "dropingTime": "8am",
+      "ticketPrice": "1500",
+      "booking": [
+        {
+          "bookingId": "001",
+          "passengerFullName": "Harshad",
+          "passengerAge": "22",
+          "passengerContactNo": "8552094070",
+          "pickUpLocation": "Pune",
+          "dropLocation": "Nagpur",
+          "sitNumber": "20"
+        }
+      ]
+    },
+    {
+      "id": "MH19DB3423",
+      "busNumber": "MH19DB3423",
+      "busName": "Sham Travel",
+      "driverName": "pratik",
+      "codriverName": "sagar",
+      "sittingCapacity": "30",
+      "fromLocation": "pune",
+      "toLocation": "jalgoan",
+      "boardingTime": "9",
+      "dropingTime": "11",
+      "ticketPrice": "500",
+      "booking": []
+    },
+    {
+      "id": "111",
+      "busNumber": "1256",
+      "busName": "Traveller",
+      "driverName": "Rohit",
+      "codriverName": "Harshad",
+      "sittingCapacity": "30",
+      "fromLocation": "Pune",
+      "toLocation": "Pusad",
+      "boardingTime": "8PM",
+      "dropingTime": "9AM",
+      "ticketPrice": "1500",
+      "booking": []
+    }
+  ]
+}

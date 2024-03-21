@@ -1,0 +1,10 @@
+<div class="login">
+    <div class="login-page">
+        <h1> Passenger Login</h1>
+        <form class="login-form" [formGroup]="loginForm" (ngSubmit)="onLogin()">
+            <input type="text" class="mt-4" placeholder="Enter Username" formControlName="username">
+            <input type="text" class="mt-4" placeholder="Enter Password" formControlName="password">
+            <button class="Login-button" class="mt-4">LOGIN</button>
+        </form>
+    </div>
+</div>

@@ -1,0 +1,16 @@
+table{
+    color: purple;
+    margin-top: 10px;
+    border-style: groove;
+    margin-left: 50px;
+   
+}
+thead{
+    text-align: center;
+}
+tbody{
+    text-align: center;
+}
+tbody tr td button{
+    background-color: purple;
+}

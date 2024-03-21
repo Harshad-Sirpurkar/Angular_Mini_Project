@@ -1,0 +1,35 @@
+<form [formGroup]="busDetails" (ngSubmit)="onSubmit()">
+    <div class="d-flex justify-content-center">
+            <div class="passenger-info">
+                <input type="text" class="me-4" formControlName="id" placeholder="Bus Id">
+                <input type="text" class="me-4" formControlName="fromLocation" placeholder="from Location.....">
+                <input type="text" class="me-4" formControlName="toLocation" placeholder="To Location.....">
+            </div>
+    </div>
+    <div class="d-flex justify-content-center">
+        <div class="passenger-info">
+            <input type="text" class="me-4" formControlName="driverName" placeholder="Enter Driver Name">
+            <input type="text" class="me-4" formControlName="codriverName" placeholder="Enter co-Driver Name">
+        </div>
+    </div>
+    <div class="d-flex justify-content-center">
+        <div class="passenger-info">
+            <input type="text" class="me-4" formControlName="busName" placeholder="Enter Bus Name">
+            <input type="text" class="me-4" formControlName="busNumber" placeholder="Enter Bus Number">
+        </div>
+    </div>
+    <div class="d-flex justify-content-center">
+        <div class="passenger-info">
+            <input type="text" class="me-4" formControlName="boardingTime" placeholder="Boarding Time">
+            <input type="text" class="me-4" formControlName="dropingTime" placeholder="Droping Time">
+        </div>
+    </div><div class="d-flex justify-content-center">
+        <div class="passenger-info">
+            <input type="text" class="me-4" formControlName="ticketPrice" placeholder="Ticket Price">
+            <input type="text" class="me-4" formControlName="sittingCapacity" placeholder="Sitting Capacity">
+        </div>
+    </div>
+               <div class="d-flex justify-content-center mt-4">
+                <button type="submit ">Register Bus</button>
+               </div>
+</form>

@@ -1,0 +1,46 @@
+<div class="search-bar mt-5" >
+    <div class="d-flex justify-content-center">
+    <input type="text" class="me-2" placeholder="From Location..." [(ngModel)]="fromLocation">
+    <input type="text" class="me-2" placeholder="To Location..." [(ngModel)]="toLocation">
+    <button type="button" class="me-2" (click)="searchBus()">Search</button>
+</div>  
+</div>
+
+<table>
+    <thead>
+        <tr>
+            <th class="d-flex justify-content-center">Bus-ID</th>
+            <th>Bus-Number</th>
+            <th>Bus-Name</th>
+            <th>Driver Name</th>
+            <th class="d-flex justify-content-center">Co.Driver Name</th>
+            <th>Sitting Capacity</th>
+            <th>From Location</th>
+            <th>To Location</th>
+            <th>Board Time</th>
+            <th>Drop Time</th>
+            <th >Ticket Price</th>
+            <th class="d-flex justify-content-center">Action</th>
+        </tr>
+    </thead>
+    <tbody >
+        <tr *ngFor="let b of ticketBook">
+            <td>{{b.id}}</td>
+            <td>{{b.busNumber}}</td>
+            <td>{{b.busName}}</td>
+            <td>{{b.driverName}}</td>
+            <td>{{b.codriverName}}</td>
+            <td>{{b.sittingCapacity}}</td>
+            <td>{{b.fromLocation}}</td>
+            <td>{{b.toLocation}}</td>
+            <td>{{b.boardingTime}}</td>
+            <td>{{b.dropingTime}}</td>
+            <td>{{b.ticketPrice}}</td>
+            <td>
+                <button class="btn btn-primary" (click)="onBooking(b.id)">Book Ticket</button>
+            </td>
+        </tr>
+    </tbody>
+    
+</table>
+
